@@ -1,47 +1,49 @@
-# Svelte + Vite
+# Yallenges
+List of all the yearly challenges I have found that happen every year.
+🎨 -> art
+🧑🏻‍💻 -> tech
 
-This template should help get you started developing with Svelte in Vite.
+## January
+- 🧑🏻‍💻🎨 Genuary https://genuary.art/
 
-## Recommended IDE Setup
+## February
+- 🎨 Februllage: https://missprinted.no/februllage/
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## March
+- 🎨 March of Robots: https://www.instagram.com/marchofrobots/
+- 🎨 March Meet the Maker: https://www.marchmeetthemaker.com
 
-## Need an official Svelte framework?
+## April
+- 🎨 April Art Challenge: https://www.instagram.com/explore/tags/aprilartchallenge/
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## May
+- 🧑🏻‍💻🎨 Mayterials: https://x.com/mayterials
+- 🎨 Mermay: https://www.mermay.com/
+- 🎨 May Sketch a Day: https://www.instagram.com/explore/tags/maysketchaday/
 
-## Technical considerations
+## June
+- 🎨 Junetoon: https://haroldgeorge.com/junetoon
+- 🎨 Junefae: https://brushwarriors.com/junefae-art-challenge/
 
-**Why use this over SvelteKit?**
+## July
+- 🎨 July Drawing Challenge: https://www.instagram.com/explore/tags/julydrawingchallenge/
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+# October
+- 🧑🏻‍💻 Hacktoberfest: https://hacktoberfest.com/
+- 🎨 Inktober: https://inktober.com/
+- 🧑🏻‍💻🎨 Hooptober: https://letterboxd.com/cinemonster/
+- 🧑🏻‍💻🎨 Swordtober: https://www.reddit.com/r/Swordtember/
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+## November
+- 🧑🏻‍💻🎨 Nodevember: https://nodevember.io/
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## December
+- 🧑🏻‍💻 Advent of Code: https://adventofcode.com/
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+## Partial Year
+- 🧑🏻‍💻🎨 36 Days of type: https://www.36daysoftype.com/
+- 🧑🏻‍💻 100 Days of Code: https://www.100daysofcode.com/
+- 🧑🏻‍💻 100 Days of SwiftUI: https://www.hackingwithswift.com/100/swiftui
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+## All Year
+- Buzzwordathon: https://www.booksandlala.com/blog/buzzwordathon-2024
