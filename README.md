@@ -40,6 +40,9 @@ List of all the yearly challenges I have found that happen every year.
 ## December
 - 🧑🏻‍💻 Advent of Code: https://adventofcode.com/
 
+## Every-month Challenge
+- 🧑🏻‍💻🎨 Weapon room: https://discord.com/invite/the-weapon-room-1013519075537858661
+
 ## Partial Year
 - 🧑🏻‍💻🎨 36 Days of type: https://www.36daysoftype.com/
 - 🧑🏻‍💻 100 Days of Code: https://www.100daysofcode.com/
