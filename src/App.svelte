@@ -1,4 +1,5 @@
 <script>
+  import "./app.css"
   const challenges = [
     { month: 'January', items: [{ icon: '🧑🏻‍💻🎨', name: 'Genuary', link: 'https://genuary.art/' }] },
     { month: 'February', items: [{ icon: '🎨', name: 'Februllage', link: 'https://missprinted.no/februllage/' }] },
@@ -34,14 +35,19 @@
   ];
 </script>
 
-<main>
-  <h1>Yallenges</h1>
-  <p>List of all the yearly challenges I have found that happen every year.</p>
+<main class="text-left">
+  <h1 class="font-extrabold py-5">Yallenges</h1>
+  <p class="pb-2">List of all the yearly challenges I have found that happen every year.</p>
+  <p class="pb-2">
+    🎨 -> art <br>
+    🧑🏻‍💻 -> tech
+  </p>
+
   <ul>
     {#each challenges as { month, items }}
       <li>
-        <h2>{month}</h2>
-        <ul>
+        <h2 class="font-bold">{month}</h2>
+        <ul class="pl-5">
           {#each items as { icon, name, link }}
             <li>
               <a href={link} target="_blank">{icon} {name}</a>
@@ -54,25 +60,5 @@
 </main>
 
 <style>
-  main {
-    font-family: Arial, sans-serif;
-    padding: 2rem;
-  }
-  h1 {
-    text-align: center;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    margin: 0.5rem 0;
-  }
-  a {
-    text-decoration: none;
-    color: #007acc;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
+
 </style>
