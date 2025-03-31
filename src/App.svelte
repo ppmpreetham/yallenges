@@ -22,6 +22,7 @@
       { icon: '🧑🏻‍💻', name: 'Hacktoberfest', link: 'https://hacktoberfest.com/' },
       { icon: '🎨', name: 'Inktober', link: 'https://inktober.com/' },
       { icon: '🧑🏻‍💻🎨', name: 'Hooptober', link: 'https://letterboxd.com/cinemonster/' },
+      { icon: '✒️', name: 'Writober', link: 'https://www.instagram.com/writober/' },
       { icon: '🧑🏻‍💻🎨', name: 'Swordtober', link: 'https://www.reddit.com/r/Swordtember/' }
     ]},
     { month: 'November', items: [{ icon: '🧑🏻‍💻🎨', name: 'Nodevember', link: 'https://nodevember.io/' }] },
@@ -40,7 +41,11 @@
   <p class="pb-2">List of all the yearly challenges I have found that happen every year.</p>
   <p class="pb-2">
     🎨 -> art <br>
-    🧑🏻‍💻 -> tech
+    🧑🏻‍💻 -> tech <br>
+    ✒️ -> writing <br>
+    📖 -> reading <br>
+    🎮 -> gaming <br>
+    🎬 -> movies
   </p>
 
   <ul>
